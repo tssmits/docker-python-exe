@@ -2,6 +2,8 @@
 
 These are the steps that allowed me to freeze a simple Python script to a Windows executable.
 
+![stack graphic of a windows docker container on vagrant on host os, with resulting .exe file](images/stack.png)
+
 ## Making an .exe file from a script
 
 These steps will guide you towards your very own .exe file.
