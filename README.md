@@ -24,31 +24,31 @@ The `2016-box` will suffice.
 
 ### Run Docker container
 
-1. `docker run -v C:$(pwd):C:/exampledir buildtools2017 -it`
+4. `docker run -v C:$(pwd):C:/exampledir buildtools2017 -it`
 
 ### Preparation for building the .exe
 
 Now that you're in the running Docker container, please surf to the example script.
 
-`cd exampledir`
+5. `cd exampledir`
 
 Please initiate a virtualenv.
 
-`python -m venv venv`
+6. `python -m venv venv`
 
 Activate it.
 
-`.\venv\Scripts\activate`
+7. `.\venv\Scripts\activate`
 
 Now you can install the required packages.
 
-`pip install pyinstaller`
+8. `pip install pyinstaller`
 
 ### Building the .exe
 
 Just one more command and your .exe is ready!
 
-`pyinstaller --onefile hello.py`
+9. `pyinstaller --onefile hello.py`
 
 ### Running the resulting exe
 
