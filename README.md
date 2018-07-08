@@ -12,7 +12,7 @@ These steps will guide you towards your very own .exe file.
 
 You must be able to run Windows containers for Docker.
 
-One way to achieve this is with the excellent [StefanScherer/windows-docker-machine] repository.(https://github.com/StefanScherer/windows-docker-machine).
+One way to achieve this is with the excellent [StefanScherer/windows-docker-machine](https://github.com/StefanScherer/windows-docker-machine) repository.
 
 This works for Windows, macOS and GNU/Linux, because Vagrant runs on all three.
 
