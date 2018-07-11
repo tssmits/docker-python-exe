@@ -1,5 +1,7 @@
 # escape=`
 
+# This Dockerfile adapted from https://stackoverflow.com/a/43759553/3960377
+
 FROM microsoft/windowsservercore
 
 # Install chocolatey
